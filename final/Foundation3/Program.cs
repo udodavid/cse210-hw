@@ -74,13 +74,13 @@ class Program
     static void Main(string[] args)
     {
         Address address1 = new Address { Street = "123 Elm St", City = "Springfield", State = "IL", Country = "USA" };
-        Event lecture = new Lecture { Title = "Advanced C#", Description = "An in-depth look at C# features.", Date = "02/06/2024", Time = "10:00 AM", Address = address1, Speaker = "Dr. Smith", Capacity = 100 };
+        Event lecture = new Lecture { Title = "Advanced C#", Description = "An in-depth look at C# features.", Date = "06/02/2024", Time = "10:00 AM", Address = address1, Speaker = "Dr. Smith", Capacity = 100 };
 
         Address address2 = new Address { Street = "456 Maple St", City = "Seattle", State = "WA", Country = "USA" };
-        Event reception = new Reception { Title = "Company Annual Meet", Description = "Annual company-wide meeting.", Date = "01/06/2024", Time = "6:00 PM", Address = address2, RSVP_Email = "rsvp@company.com" };
+        Event reception = new Reception { Title = "Company Annual Meet", Description = "Annual company-wide meeting.", Date = "06/01/2024", Time = "6:00 PM", Address = address2, RSVP_Email = "rsvp@company.com" };
 
         Address address3 = new Address { Street = "789 Pine St", City = "Denver", State = "CO", Country = "USA" };
-        Event outdoorGathering = new OutdoorGathering { Title = "Summer Picnic", Description = "Outdoor picnic for all employees.", Date = "06/20/2023", Time = "11:00 AM", Address = address3, WeatherForecast = "Sunny" };
+        Event outdoorGathering = new OutdoorGathering { Title = "Summer Picnic", Description = "Outdoor picnic for all employees.", Date = "06/20/2024", Time = "11:00 AM", Address = address3, WeatherForecast = "Sunny" };
 
         List<Event> events = new List<Event> { lecture, reception, outdoorGathering };
 
